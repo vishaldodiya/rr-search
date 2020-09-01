@@ -1,5 +1,5 @@
-# Acme Co. Search
-Slick search engine for Acme Corporation. With the functionality to pin search results and track analytics.
+# Search with React & Redux
+Slick search engine using React and Redux. With the functionality to pin search results and track analytics.
 
 ## Installation
 
