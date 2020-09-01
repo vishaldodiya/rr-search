@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slack snapshot renders 1`] = `
+<article
+  className="slack results__card card"
+  id="slack-1234"
+>
+  <div
+    className="card__actions"
+  >
+    <span>
+      <i
+        className="fab fa-slack c--slack"
+      />
+    </span>
+    <button
+      className="card__pin"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-thumbtack c--green"
+      />
+    </button>
+  </div>
+  <div
+    className="slack__info"
+  >
+    <h4>
+      alice
+    </h4>
+    <div
+      className="slack__info--meta"
+    >
+      <span>
+        #chatter
+      </span>
+      <span>
+        on February 26, 2019 at 11:00 AM
+      </span>
+    </div>
+  </div>
+  <div>
+    <p>
+      Who's up for lunch right now?
+    </p>
+  </div>
+</article>
+`;

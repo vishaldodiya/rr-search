@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact snapshot renders 1`] = `
+<article
+  className="contact results__card card"
+  id="contact-1234"
+>
+  <div
+    className="card__actions"
+  >
+    <span>
+      <i
+        className="fas fa-id-card"
+      />
+    </span>
+    <button
+      className="card__pin"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-thumbtack c--green"
+      />
+    </button>
+  </div>
+  <h4>
+    John Doe
+  </h4>
+  <div
+    className="contact__info"
+  >
+    <div
+      className="contact__info--company contact--item"
+    >
+      <i
+        className="fas fa-briefcase c--gray"
+      />
+      <span
+        className="card__list"
+      >
+        Acme Inc
+      </span>
+    </div>
+    <div
+      className="contact__info--email contact--item"
+    >
+      <i
+        className="fas fa-envelope c--gray"
+      />
+      <span
+        className="card__list"
+      >
+        <a
+          href="mailto:john@acme.co"
+        >
+          john@acme.co
+        </a>
+      </span>
+      <span
+        className="card__list"
+      >
+        <a
+          href="mailto:doe@gmail.com"
+        >
+          doe@gmail.com
+        </a>
+      </span>
+    </div>
+    <div
+      className="contact__info--phone contact--item"
+    >
+      <i
+        className="fas fa-phone c--gray"
+      />
+      <span
+        className="card__list"
+      >
+        <a
+          href="tel:650-555-5555"
+        >
+          650-555-5555
+        </a>
+      </span>
+      <span
+        className="card__list"
+      >
+        <a
+          href="tel:+44 171 5555 5555"
+        >
+          +44 171 5555 5555
+        </a>
+      </span>
+    </div>
+    <div
+      className="contact__info--last"
+    >
+      <i
+        className="fas fa-phone-volume c--gray"
+      />
+      <span
+        className="card__list"
+      >
+        February 25, 2019
+      </span>
+    </div>
+  </div>
+</article>
+`;

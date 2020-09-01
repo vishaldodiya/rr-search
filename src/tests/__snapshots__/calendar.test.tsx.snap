@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar snapshot renders 1`] = `
+<article
+  className="calendar results__card card"
+  id="calendar-1234"
+>
+  <div
+    className="card__actions"
+  >
+    <span>
+      <i
+        className="far fa-calendar-alt"
+      />
+    </span>
+    <button
+      className="card__pin"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-thumbtack c--green"
+      />
+    </button>
+  </div>
+  <h4>
+    Acme Proposal Meeting
+  </h4>
+  <div
+    className="calendar__info"
+  >
+    <div
+      className="calendar__info--date"
+    >
+      <span>
+        on January 10, 2019 at 10:00 AM
+      </span>
+    </div>
+    <div
+      className="calendar__info--invitees"
+    >
+      <i
+        className="fas fa-users c--gray"
+      />
+      <span
+        className="card__list"
+      >
+        dave
+      </span>
+      <span
+        className="card__list"
+      >
+        john
+      </span>
+      <span
+        className="card__list"
+      >
+        bob
+      </span>
+      <span
+        className="card__list"
+      >
+        carol
+      </span>
+    </div>
+  </div>
+</article>
+`;

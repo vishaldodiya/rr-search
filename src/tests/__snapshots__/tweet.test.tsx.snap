@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweet snapshot renders 1`] = `
+<article
+  className="tweet results__card card"
+  id="tweet-1234"
+>
+  <div
+    className="card__actions"
+  >
+    <span>
+      <i
+        className="fab fa-twitter c--twitter"
+      />
+    </span>
+    <button
+      className="card__pin"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-thumbtack c--green"
+      />
+    </button>
+  </div>
+  <div
+    className="tweet__info"
+  >
+    <span>
+      @acmecorp
+    </span>
+    <span
+      className="tweet__info--date"
+    >
+      February 28, 2019
+    </span>
+  </div>
+  <div>
+    <p>
+      We're hiring in Boston!
+    </p>
+  </div>
+</article>
+`;

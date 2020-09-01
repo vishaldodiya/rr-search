@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropbox snapshot renders 1`] = `
+<article
+  className="dropbox results__card card"
+  id="dropbox-1234"
+>
+  <div
+    className="card__actions"
+  >
+    <span>
+      <i
+        className="fab fa-dropbox c--dropbox"
+      />
+    </span>
+    <button
+      className="card__pin"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-thumbtack c--green"
+      />
+    </button>
+  </div>
+  <div
+    className="dropbox__file"
+  >
+    <h4>
+      "2016 W2"
+    </h4>
+    <span
+      className="dropbox__date"
+    >
+      January 31, 2016
+    </span>
+  </div>
+  <div
+    className="dropbox__shared"
+  >
+    <i
+      className="fas fa-users c--gray"
+    />
+    <span
+      className="card__list"
+    >
+      <a
+        href="mailto:jane@accountants.com"
+      >
+        jane@accountants.com
+      </a>
+    </span>
+    <span
+      className="card__list"
+    >
+      <a
+        href="mailto:spouse@family.org"
+      >
+        spouse@family.org
+      </a>
+    </span>
+  </div>
+  <div
+    className="dropbox__share"
+  >
+    <input
+      className="dropbox__share--path c--dark-gray"
+      readOnly={true}
+      type="text"
+      value="https://dropbox.com/taxes/2016/w2-acme.pdf"
+    />
+    <button
+      className="dropbox__share--btn c--dropbox"
+      onClick={[Function]}
+    >
+      Copy link
+    </button>
+  </div>
+</article>
+`;
