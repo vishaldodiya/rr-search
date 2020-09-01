@@ -16,7 +16,7 @@ const Homepage = ({pins, analytics}: Props) => {
     return (
         <Router>
             <nav className="nav abc">
-                <Link className="nav__title" to="/">Acme Co. Search</Link>
+                <Link className="nav__title" to="/">React Redux Search</Link>
                 <Search></Search>
                 <Link className="nav__item" to="/pins">
                     <span>
